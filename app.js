@@ -27,7 +27,9 @@ hesaplaBtn.addEventListener("click", () => {
     vade.value === "Seçiniz" ||
     tutar.value === "Seçiniz"
   ) {
-    alert("Lütfen kredi türü, vade ve tutarı giriniz");
+    alert(
+      "Lütfen maaşınızı, almak istediğiniz kredi türünü, vade ve tutarı giriniz"
+    );
   } else if (maas.value >= 10000) {
     if (krediTur.value === "Konut Kredisi") {
       oran = 1.29;
